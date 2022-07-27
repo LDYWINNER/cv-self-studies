@@ -44,7 +44,6 @@ v = cv2.__version__.split('.')[0]
 # It has argument which is number denoting index of camera.
 # By 0, we usually get access to built-in camera.
 # If you have additional camera try to use 1 instead.
-#
 camera = cv2.VideoCapture(0)
 
 
@@ -177,7 +176,7 @@ cv2.destroyAllWindows()
 """
 Some comments
 
-With OpenCV function cv2.findContours() we find 
+With OpenCV function cv2.findContours() we find   
 contours of white object from black background.
 
 There are three arguments in cv.findContours() function,
